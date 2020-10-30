@@ -1,5 +1,6 @@
 ﻿export class CheckingAccount {
     private _balance: number = 0;
+    title: string;
 
     get balance() {
         return this._balance
