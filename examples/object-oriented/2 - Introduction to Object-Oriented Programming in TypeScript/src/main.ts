@@ -9,6 +9,11 @@ class ClassObject {
 }
 const classObj = new ClassObject();
 
+// #### Create object using a constructor function
+function FunctionObject() {
+    this.balance = 9000;
+}
+const functionObj = new FunctionObject();
 
 // #### Create object using Object.create()
 const objCreate = Object.create(objLiteral);
