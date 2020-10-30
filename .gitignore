@@ -7,6 +7,8 @@ node_modules
 jspm_packages
 bower_components
 
+package-lock.json
+
 plnkr.html
 #plnkr.demo.html
 
