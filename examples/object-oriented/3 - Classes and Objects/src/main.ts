@@ -6,8 +6,7 @@ class Main {
 
     constructor(/* private renderer: Renderer */) {
         // Create CheckingAccount instance
-        this.checkingAccount = new CheckingAccount();
-        this.checkingAccount.title = 'Jimmy Bob';
+        this.checkingAccount = new CheckingAccount('Jimmy Bob');
         this.renderAccount();
     }
 

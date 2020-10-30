@@ -1,6 +1,9 @@
 ﻿export class CheckingAccount {
     private _balance: number = 0;
-    title: string;
+
+    constructor(public title: string) {
+        this.title = title;
+    }
 
     get balance() {
         return this._balance
